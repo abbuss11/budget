@@ -1,0 +1,79 @@
+.home-content {
+  --background: linear-gradient(180deg, #4e2dfc 0%, #5f3bff 42%, #f4f5f8 42%);
+}
+
+.home-toolbar {
+  --background: transparent;
+  --border-color: transparent;
+  --box-shadow: none;
+  box-shadow: none;
+}
+
+.toolbar-title {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.logout-icon-btn {
+  --color: #ffffff;
+  font-size: 22px;
+}
+
+.top-section {
+  text-align: center;
+  padding: 42px 20px 28px;
+  color: #ffffff;
+}
+
+.budget-amount {
+  margin: 0;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.budget-text {
+  margin-top: 8px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.bottom-card {
+  margin: 28px 14px 18px;
+  border-radius: 24px;
+  background: #ffffff;
+  padding: 28px 18px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(19, 15, 48, 0.1);
+}
+
+.illustration img {
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.bottom-card p {
+  color: #585e73;
+}
+
+.add-button {
+  --background: linear-gradient(135deg, #4e2dfc, #6a4dff);
+  --border-radius: 999px;
+  height: 50px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.custom-tabbar {
+  --background: #ffffff;
+  border-top: none;
+  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 20px 20px 0 0;
+  padding: 6px 0;
+  height: 64px;
+}
+
+ion-tab-button {
+  --color: #8e8ea0;
+  --color-selected: #4e2dfc;
+  font-size: 22px;
+}

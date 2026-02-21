@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@test.com",
+      "password": "2020",
+      "name": "Test User",
+      "createdAt": "2024-02-16T10:00:00Z"
+    },
+    {
+      "id": "1771241366452",
+      "email": "abba@abba.com",
+      "password": "111111",
+      "name": "abba",
+      "createdAt": "2026-02-16T11:29:26.452Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "1",
+      "userId": "1",
+      "name": "Compte Principal",
+      "balance": 7455000,
+      "createdAt": "2024-02-16T10:05:00Z",
+      "budgetLimit": 500000
+    },
+    {
+      "id": "1771264488472",
+      "userId": "1771241366452",
+      "name": "lol",
+      "balance": 150000,
+      "createdAt": "2026-02-16T17:54:48.472Z"
+    },
+    {
+      "id": "1771267198178",
+      "userId": "1771241366452",
+      "name": "test",
+      "balance": 500,
+      "createdAt": "2026-02-16T18:39:58.178Z"
+    },
+    {
+      "id": "1771340360254",
+      "userId": "1771241366452",
+      "name": "test",
+      "balance": 50000000,
+      "createdAt": "2026-02-17T14:59:20.254Z"
+    },
+    {
+      "id": "1771340409000",
+      "userId": "1771241366452",
+      "name": "lol",
+      "balance": 10000,
+      "createdAt": "2026-02-17T15:00:09.000Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "accountId": 1,
+      "type": "expense",
+      "amount": 2500,
+      "description": "Courses",
+      "createdAt": "2024-02-17T09:00:00Z"
+    },
+    {
+      "id": "50b8",
+      "userId": "1",
+      "name": "Test Account PS",
+      "balance": 5000
+    },
+    {
+      "id": "35dd",
+      "userId": "1",
+      "name": "Proxy Test Account",
+      "balance": 12345
+    },
+    {
+      "id": "1771255534591",
+      "userId": 1771241366452,
+      "name": "lol",
+      "balance": 1000000,
+      "createdAt": "2026-02-16T15:25:34.591Z"
+    },
+    {
+      "id": 1771543767786,
+      "accountId": "1",
+      "type": "expense",
+      "amount": 45000,
+      "description": "stuffs",
+      "createdAt": "2026-02-19T23:29:27.786Z"
+    },
+    {
+      "id": 1771544042775,
+      "accountId": "1",
+      "type": "expense",
+      "amount": 2500000,
+      "description": "1500000",
+      "createdAt": "2026-02-19T23:34:02.775Z"
+    }
+  ]
+}

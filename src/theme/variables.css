@@ -1,2 +1,79 @@
 /* For information on how to create your own theme, please refer to:
 http://ionicframework.com/docs/theming/ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root {
+  --ion-font-family: 'Roboto', sans-serif;
+  color-scheme: light;
+}
+
+/* Pour être sûr que tout prend */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+ion-header,
+ion-toolbar {
+  box-shadow: none !important;
+  --box-shadow: none;
+}
+ion-content {
+  --background: transparent;
+  --border-color: transparent;
+  --box-shadow: none;
+}
+ion-header {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+ion-toolbar {
+  --border-width: 0;
+  --box-shadow: none;
+}
+
+
+.cardd {
+  border-radius: 20px !important;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08);
+  
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 10px;
+}
+
+.cardd:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.cardd ion-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.cardd h3,p {
+    padding: 10px;
+}
+.cardd ion-card-content h3 {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+/* Conteneur plein écran */
+.auth-container {
+  --background: #f8fafc; /* optionnel */
+}
+
+/* Centre le contenu */
+.auth-content {
+  min-height: 100%;
+  display: flex;
+  align-items: center;      /* vertical */
+  justify-content: center;  /* horizontal */
+  padding: 16px;
+}
+
+/* Card */
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}

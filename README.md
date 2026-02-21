@@ -426,4 +426,5 @@ Selon `db.json` courant:
 4. Ajouter tests E2E metier complets.
 5. Ajouter i18n et formatage monetaire robuste.
 #   b u d g e t  
+ #   b u d g e t  
  

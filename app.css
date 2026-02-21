@@ -1,0 +1,33 @@
+.custom-tabbar {
+  --background: #ffffff;
+  border-top: none;
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 25px 25px 0 0;
+  padding: 8px 0;
+  height: 65px;
+}
+
+ion-tab-button {
+  --color: #8e8ea0;
+  --color-selected: #4e2dfc;
+  font-size: 22px;
+  transition: 0.3s ease;
+}
+
+ion-tab-button.ion-selected {
+  transform: translateY(-4px);
+}
+
+.center-tab {
+  position: relative;
+  top: -20px;
+  background: linear-gradient(135deg, #4e2dfc, #6a4dff);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(78, 45, 252, 0.5);
+  --color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

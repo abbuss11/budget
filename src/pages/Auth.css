@@ -1,0 +1,95 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #040999 !important;
+  padding: 20px;
+}
+
+.auth-content {
+  width: 100%;
+  max-width: 400px;
+      min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    flex-direction: column;
+}
+.auth-content h1{
+  margin-top: -30px;
+  font-weight: bolder;
+  font-size: 35px;
+  background: linear-gradient(135deg, #8400b0 0%, #040999 100%);
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.auth-card {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.auth-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.error-message {
+  padding: 12px;
+  margin-bottom: 16px;
+  background-color: #fff5f5;
+  border-left: 4px solid #f61e25;
+  border-radius: 4px;
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.auth-footer ion-text {
+  display: block;
+  font-size: 14px;
+  color: #666;
+}
+
+.auth-footer a {
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.auth-footer a:hover {
+  color: #667eea !important;
+}
+
+.auth-card ion-input {
+  margin-bottom: 16px !important;
+}
+
+.auth-card ion-input label {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.auth-card ion-button {
+  margin-top: 20px !important;
+  height: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 100% !important;
+}
+.btt {
+  border-radius: 100%;
+}
